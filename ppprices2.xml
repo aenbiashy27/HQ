@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prices>
+    <SheetSizes>
+        <SheetSize type="SRA3" width="440" height="307">
+            <PaperType name="300gsm" price="1.2"/>
+            <PaperType name="150gsm" price="0.8"/>
+            <PaperType name="100gsm" price="0.5"/>
+        </SheetSize>
+        <SheetSize type="A3" width="410" height="287">
+            <PaperType name="a1" price="1.0"/>
+            <PaperType name="b2" price="1.1"/>
+            <!-- 其他8种... -->
+        </SheetSize>
+    </SheetSizes>
+    
+    <Pricing>
+        <PricingTier range="1-9" single="2.0" double="3.0"/>
+        <PricingTier range="10-19" single="1.9" double="2.9"/>
+        <PricingTier range="20-29" single="1.8" double="2.8"/>
+        <!-- 其他价格阶梯... -->
+        <PricingTier range="100+" single="0.8" double="1.3"/>
+    </Pricing>
+</Prices>
