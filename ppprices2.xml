@@ -1,134 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pricing>
+<PaperPricing>
     <SheetDimensions>
-        <!-- SRA3 纸张 -->
-        <Paper type="SRA3">
-            <Width value="440"/>
-            <Height value="307"/>
-            <Variants>
-                <Variant name="300gsm">
-                    <SingleSided>
-                        <Tier range="1-9" value="2.00"/>
-                        <Tier range="10-19" value="1.90"/>
-                        <Tier range="20-29" value="1.80"/>
-                        <Tier range="30-39" value="1.70"/>
-                        <Tier range="40-49" value="1.60"/>
-                        <Tier range="50-59" value="1.50"/>
-                        <Tier range="60-69" value="1.40"/>
-                        <Tier range="70-79" value="1.30"/>
-                        <Tier range="80-89" value="1.20"/>
-                        <Tier range="90-99" value="1.10"/>
-                        <Tier range="100+" value="0.80"/>
-                    </SingleSided>
-                    <DoubleSided>
-                        <Tier range="1-9" value="3.00"/>
-                        <Tier range="10-19" value="2.90"/>
-                        <Tier range="20-29" value="2.80"/>
-                        <Tier range="30-39" value="2.70"/>
-                        <Tier range="40-49" value="2.50"/>
-                        <Tier range="50-59" value="2.30"/>
-                        <Tier range="60-69" value="2.10"/>
-                        <Tier range="70-79" value="1.90"/>
-                        <Tier range="80-89" value="1.70"/>
-                        <Tier range="90-99" value="1.50"/>
-                        <Tier range="100+" value="1.30"/>
-                    </DoubleSided>
-                </Variant>
-                <Variant name="150gsm">
-                    <!-- 这里可填入各区间价钱 -->
-                    <SingleSided>
-                        <Tier range="1-9" value="2.10"/>
-                        <Tier range="10-19" value="2.00"/>
-                        <Tier range="20-29" value="1.90"/>
-                        <Tier range="30-39" value="1.80"/>
-                        <Tier range="40-49" value="1.70"/>
-                        <Tier range="50-59" value="1.60"/>
-                        <Tier range="60-69" value="1.50"/>
-                        <Tier range="70-79" value="1.40"/>
-                        <Tier range="80-89" value="1.30"/>
-                        <Tier range="90-99" value="1.20"/>
-                        <Tier range="100+" value="1.00"/>
-                    </SingleSided>
-                    <DoubleSided>
-                        <Tier range="1-9" value="3.10"/>
-                        <Tier range="10-19" value="3.00"/>
-                        <Tier range="20-29" value="2.90"/>
-                        <Tier range="30-39" value="2.80"/>
-                        <Tier range="40-49" value="2.70"/>
-                        <Tier range="50-59" value="2.60"/>
-                        <Tier range="60-69" value="2.50"/>
-                        <Tier range="70-79" value="2.40"/>
-                        <Tier range="80-89" value="2.30"/>
-                        <Tier range="90-99" value="2.20"/>
-                        <Tier range="100+" value="2.00"/>
-                    </DoubleSided>
-                </Variant>
-                <Variant name="100gsm">
-                    <SingleSided>
-                        <Tier range="1-9" value="2.20"/>
-                        <Tier range="10-19" value="2.10"/>
-                        <Tier range="20-29" value="2.00"/>
-                        <Tier range="30-39" value="1.90"/>
-                        <Tier range="40-49" value="1.80"/>
-                        <Tier range="50-59" value="1.70"/>
-                        <Tier range="60-69" value="1.60"/>
-                        <Tier range="70-79" value="1.50"/>
-                        <Tier range="80-89" value="1.40"/>
-                        <Tier range="90-99" value="1.30"/>
-                        <Tier range="100+" value="1.10"/>
-                    </SingleSided>
-                    <DoubleSided>
-                        <Tier range="1-9" value="3.20"/>
-                        <Tier range="10-19" value="3.10"/>
-                        <Tier range="20-29" value="3.00"/>
-                        <Tier range="30-39" value="2.90"/>
-                        <Tier range="40-49" value="2.80"/>
-                        <Tier range="50-59" value="2.70"/>
-                        <Tier range="60-69" value="2.60"/>
-                        <Tier range="70-79" value="2.50"/>
-                        <Tier range="80-89" value="2.40"/>
-                        <Tier range="90-99" value="2.30"/>
-                        <Tier range="100+" value="2.10"/>
-                    </DoubleSided>
-                </Variant>
-            </Variants>
-        </Paper>
-        <!-- A3 纸张 -->
-        <Paper type="A3">
-            <Width value="410"/>
-            <Height value="287"/>
-            <Variants>
-                <!-- 10种变体，这里只示例一种，其余可依样扩展 -->
-                <Variant name="a1">
-                    <SingleSided>
-                        <Tier range="1-9" value="2.00"/>
-                        <Tier range="10-19" value="1.90"/>
-                        <Tier range="20-29" value="1.80"/>
-                        <Tier range="30-39" value="1.70"/>
-                        <Tier range="40-49" value="1.60"/>
-                        <Tier range="50-59" value="1.50"/>
-                        <Tier range="60-69" value="1.40"/>
-                        <Tier range="70-79" value="1.30"/>
-                        <Tier range="80-89" value="1.20"/>
-                        <Tier range="90-99" value="1.10"/>
-                        <Tier range="100+" value="0.80"/>
-                    </SingleSided>
-                    <DoubleSided>
-                        <Tier range="1-9" value="3.00"/>
-                        <Tier range="10-19" value="2.90"/>
-                        <Tier range="20-29" value="2.80"/>
-                        <Tier range="30-39" value="2.70"/>
-                        <Tier range="40-49" value="2.50"/>
-                        <Tier range="50-59" value="2.30"/>
-                        <Tier range="60-69" value="2.10"/>
-                        <Tier range="70-79" value="1.90"/>
-                        <Tier range="80-89" value="1.70"/>
-                        <Tier range="90-99" value="1.50"/>
-                        <Tier range="100+" value="1.30"/>
-                    </DoubleSided>
-                </Variant>
-                <!-- 其他变体 a2, a3,..., j10 略 -->
-            </Variants>
-        </Paper>
+        <Sheet id="317" width="440" height="307"/>
+        <Sheet id="A3" width="410" height="287"/>
     </SheetDimensions>
-</Pricing>
+    <PaperPrices>
+        <Paper type="gsm100Paper">
+            <TwoSided>
+                <PriceRange range="1-9" value="2.00"/>
+                <PriceRange range="10-19" value="1.90"/>
+                <PriceRange range="20-29" value="1.80"/>
+                <PriceRange range="30-39" value="1.70"/>
+                <PriceRange range="40-49" value="1.60"/>
+                <PriceRange range="50-59" value="1.50"/>
+                <PriceRange range="60-69" value="1.40"/>
+                <PriceRange range="70-79" value="1.30"/>
+                <PriceRange range="80-89" value="1.20"/>
+                <PriceRange range="90-99" value="1.10"/>
+                <PriceRange range="100+" value="1.00"/>
+            </TwoSided>
+            <OneSided>
+                <PriceRange range="1-9" value="1.50"/>
+                <PriceRange range="10-19" value="1.40"/>
+                <PriceRange range="20-29" value="1.40"/>
+                <PriceRange range="30-39" value="1.30"/>
+                <PriceRange range="40-49" value="1.20"/>
+                <PriceRange range="50-59" value="1.10"/>
+                <PriceRange range="60-69" value="1.00"/>
+                <PriceRange range="70-79" value="0.90"/>
+                <PriceRange range="80-89" value="0.80"/>
+                <PriceRange range="90-99" value="0.70"/>
+                <PriceRange range="100+" value="0.60"/>
+            </OneSided>
+        </Paper>
+        <Paper type="gsm150Paper">
+            <TwoSided>
+                <PriceRange range="1-9" value="2.80"/>
+                <PriceRange range="10-19" value="2.70"/>
+                <PriceRange range="20-29" value="2.50"/>
+                <PriceRange range="30-39" value="2.30"/>
+                <PriceRange range="40-49" value="2.10"/>
+                <PriceRange range="50-59" value="2.00"/>
+                <PriceRange range="60-69" value="1.80"/>
+                <PriceRange range="70-79" value="1.60"/>
+                <PriceRange range="80-89" value="1.40"/>
+                <PriceRange range="90-99" value="1.20"/>
+                <PriceRange range="100+" value="1.10"/>
+            </TwoSided>
+            <OneSided>
+                <PriceRange range="1-9" value="1.80"/>
+                <PriceRange range="10-19" value="1.70"/>
+                <PriceRange range="20-29" value="1.60"/>
+                <PriceRange range="30-39" value="1.50"/>
+                <PriceRange range="40-49" value="1.40"/>
+                <PriceRange range="50-59" value="1.30"/>
+                <PriceRange range="60-69" value="1.20"/>
+                <PriceRange range="70-79" value="1.10"/>
+                <PriceRange range="80-89" value="1.00"/>
+                <PriceRange range="90-99" value="0.90"/>
+                <PriceRange range="100+" value="0.80"/>
+            </OneSided>
+        </Paper>
+        <Paper type="gsm300Card">
+            <TwoSided>
+                <PriceRange range="1-9" value="3.00"/>
+                <PriceRange range="10-19" value="2.90"/>
+                <PriceRange range="20-29" value="2.70"/>
+                <PriceRange range="30-39" value="2.50"/>
+                <PriceRange range="40-49" value="2.30"/>
+                <PriceRange range="50-59" value="2.20"/>
+                <PriceRange range="60-69" value="2.00"/>
+                <PriceRange range="70-79" value="1.80"/>
+                <PriceRange range="80-89" value="1.60"/>
+                <PriceRange range="90-99" value="1.40"/>
+                <PriceRange range="100+" value="1.30"/>
+            </TwoSided>
+            <OneSided>
+                <PriceRange range="1-9" value="2.00"/>
+                <PriceRange range="10-19" value="1.90"/>
+                <PriceRange range="20-29" value="1.80"/>
+                <PriceRange range="30-39" value="1.70"/>
+                <PriceRange range="40-49" value="1.60"/>
+                <PriceRange range="50-59" value="1.50"/>
+                <PriceRange range="60-69" value="1.40"/>
+                <PriceRange range="70-79" value="1.30"/>
+                <PriceRange range="80-89" value="1.20"/>
+                <PriceRange range="90-99" value="1.10"/>
+                <PriceRange range="100+" value="1.00"/>
+            </OneSided>
+        </Paper>
+        <Paper type="fancyPaper">
+            <TwoSided>
+                <PriceRange range="1-9" value="2.00"/>
+                <PriceRange range="10-19" value="1.90"/>
+                <PriceRange range="20-29" value="1.80"/>
+                <PriceRange range="30-39" value="1.70"/>
+                <PriceRange range="40-49" value="1.60"/>
+                <PriceRange range="50-59" value="1.50"/>
+                <PriceRange range="60-69" value="1.40"/>
+                <PriceRange range="70-79" value="1.30"/>
+                <PriceRange range="80-89" value="1.20"/>
+                <PriceRange range="90-99" value="1.10"/>
+                <PriceRange range="100+" value="1.00"/>
+            </TwoSided>
+            <OneSided>
+                <PriceRange range="1-9" value="1.00"/>
+                <PriceRange range="10-19" value="1.00"/>
+                <PriceRange range="20-29" value="0.90"/>
+                <PriceRange range="30-39" value="0.90"/>
+                <PriceRange range="40-49" value="0.80"/>
+                <PriceRange range="50-59" value="0.80"/>
+                <PriceRange range="60-69" value="0.70"/>
+                <PriceRange range="70-79" value="0.70"/>
+                <PriceRange range="80-89" value="0.60"/>
+                <PriceRange range="90-99" value="0.60"/>
+                <PriceRange range="100+" value="0.50"/>
+            </OneSided>
+        </Paper>
+    </PaperPrices>
+</PaperPricing>
