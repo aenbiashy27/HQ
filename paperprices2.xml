@@ -20,8 +20,8 @@
                 <PriceRange range="100+" value="1.00"/>
             </TwoSided>
             <OneSided>
-                <PriceRange range="1-9" value="1.50"/>
-                <PriceRange range="10-19" value="1.40"/>
+                <PriceRange range="1-9" value="1.60"/>
+                <PriceRange range="10-19" value="1.50"/>
                 <PriceRange range="20-29" value="1.40"/>
                 <PriceRange range="30-39" value="1.30"/>
                 <PriceRange range="40-49" value="1.20"/>
@@ -65,9 +65,9 @@
             <TwoSided>
                 <PriceRange range="1-9" value="3.00"/>
                 <PriceRange range="10-19" value="2.90"/>
-                <PriceRange range="20-29" value="2.70"/>
-                <PriceRange range="30-39" value="2.50"/>
-                <PriceRange range="40-49" value="2.30"/>
+                <PriceRange range="20-29" value="2.80"/>
+                <PriceRange range="30-39" value="2.60"/>
+                <PriceRange range="40-49" value="2.40"/>
                 <PriceRange range="50-59" value="2.20"/>
                 <PriceRange range="60-69" value="2.00"/>
                 <PriceRange range="70-79" value="1.80"/>
