@@ -21,7 +21,7 @@
             </TwoSided>
             <OneSided>
                 <PriceRange range="1-9" value="1.50"/>
-                <PriceRange range="10-19" value="1.45"/>
+                <PriceRange range="10-19" value="1.40"/>
                 <PriceRange range="20-29" value="1.40"/>
                 <PriceRange range="30-39" value="1.30"/>
                 <PriceRange range="40-49" value="1.20"/>
@@ -64,12 +64,12 @@
         <Paper type="gsm300Card">
             <TwoSided>
                 <PriceRange range="1-9" value="3.00"/>
-                <PriceRange range="10-19" value="2.80"/>
-                <PriceRange range="20-29" value="2.60"/>
-                <PriceRange range="30-39" value="2.40"/>
-                <PriceRange range="40-49" value="2.20"/>
-                <PriceRange range="50-59" value="2.00"/>
-                <PriceRange range="60-69" value="1.90"/>
+                <PriceRange range="10-19" value="2.90"/>
+                <PriceRange range="20-29" value="2.70"/>
+                <PriceRange range="30-39" value="2.50"/>
+                <PriceRange range="40-49" value="2.30"/>
+                <PriceRange range="50-59" value="2.20"/>
+                <PriceRange range="60-69" value="2.00"/>
                 <PriceRange range="70-79" value="1.80"/>
                 <PriceRange range="80-89" value="1.60"/>
                 <PriceRange range="90-99" value="1.40"/>
@@ -106,15 +106,15 @@
                     </TwoSided>
                     <OneSided>
                         <PriceRange range="1-9" value="1.00"/>
-                        <PriceRange range="10-19" value="0.95"/>
+                        <PriceRange range="10-19" value="1.00"/>
                         <PriceRange range="20-29" value="0.90"/>
-                        <PriceRange range="30-39" value="0.85"/>
+                        <PriceRange range="30-39" value="0.90"/>
                         <PriceRange range="40-49" value="0.80"/>
-                        <PriceRange range="50-59" value="0.75"/>
+                        <PriceRange range="50-59" value="0.80"/>
                         <PriceRange range="60-69" value="0.70"/>
-                        <PriceRange range="70-79" value="0.65"/>
+                        <PriceRange range="70-79" value="0.70"/>
                         <PriceRange range="80-89" value="0.60"/>
-                        <PriceRange range="90-99" value="0.55"/>
+                        <PriceRange range="90-99" value="0.60"/>
                         <PriceRange range="100+" value="0.50"/>
                     </OneSided>
                 </Paper>
@@ -136,15 +136,15 @@
             </TwoSided>
             <OneSided>
                 <PriceRange range="1-9" value="1.00"/>
-                <PriceRange range="10-19" value="0.95"/>
+                <PriceRange range="10-19" value="1.00"/>
                 <PriceRange range="20-29" value="0.90"/>
-                <PriceRange range="30-39" value="0.85"/>
+                <PriceRange range="30-39" value="0.90"/>
                 <PriceRange range="40-49" value="0.80"/>
-                <PriceRange range="50-59" value="0.75"/>
+                <PriceRange range="50-59" value="0.80"/>
                 <PriceRange range="60-69" value="0.70"/>
-                <PriceRange range="70-79" value="0.65"/>
+                <PriceRange range="70-79" value="0.70"/>
                 <PriceRange range="80-89" value="0.60"/>
-                <PriceRange range="90-99" value="0.55"/>
+                <PriceRange range="90-99" value="0.60"/>
                 <PriceRange range="100+" value="0.50"/>
             </OneSided>
         </Paper>
@@ -162,169 +162,6 @@
             <PriceRange range="90-99" value="1.40"/>
             <PriceRange range="100+" value="1.30"/>
         </Lamination>
-
-
-        <CutFees>
-    <Paper type="gsm100Paper">
-        <OneSided>
-            <PriceRange range="1-9" cutFee="8"/>
-            <PriceRange range="10-19" cutFee="8"/>
-            <PriceRange range="20-29" cutFee="8"/>
-            <PriceRange range="30-39" cutFee="8"/>
-            <PriceRange range="40-49" cutFee="8"/>
-            <PriceRange range="50-59" cutFee="8"/>
-            <PriceRange range="60-69" cutFee="8"/>
-            <PriceRange range="70-79" cutFee="8"/>
-            <PriceRange range="80-89" cutFee="10"/>
-            <PriceRange range="90-99" cutFee="12"/>
-            <PriceRange range="100+" cutFee="20"/>
-        </OneSided>
-        <TwoSided>
-            <PriceRange range="1-9" cutFee="8"/>
-            <PriceRange range="10-19" cutFee="8"/>
-            <PriceRange range="20-29" cutFee="8"/>
-            <PriceRange range="30-39" cutFee="8"/>
-            <PriceRange range="40-49" cutFee="8"/>
-            <PriceRange range="50-59" cutFee="8"/>
-            <PriceRange range="60-69" cutFee="8"/>
-            <PriceRange range="70-79" cutFee="8"/>
-            <PriceRange range="80-89" cutFee="10"/>
-            <PriceRange range="90-99" cutFee="12"/>
-            <PriceRange range="100+" cutFee="20"/>
-        </TwoSided>
-    </Paper>
-    <Paper type="gsm150Paper">
-        <OneSided>
-            <PriceRange range="1-9" cutFee="8"/>
-            <PriceRange range="10-19" cutFee="8"/>
-            <PriceRange range="20-29" cutFee="8"/>
-            <PriceRange range="30-39" cutFee="8"/>
-            <PriceRange range="40-49" cutFee="8"/>
-            <PriceRange range="50-59" cutFee="8"/>
-            <PriceRange range="60-69" cutFee="8"/>
-            <PriceRange range="70-79" cutFee="8"/>
-            <PriceRange range="80-89" cutFee="10"/>
-            <PriceRange range="90-99" cutFee="12"/>
-            <PriceRange range="100+" cutFee="20"/>
-        </OneSided>
-        <TwoSided>
-            <PriceRange range="1-9" cutFee="8"/>
-            <PriceRange range="10-19" cutFee="8"/>
-            <PriceRange range="20-29" cutFee="8"/>
-            <PriceRange range="30-39" cutFee="8"/>
-            <PriceRange range="40-49" cutFee="8"/>
-            <PriceRange range="50-59" cutFee="8"/>
-            <PriceRange range="60-69" cutFee="8"/>
-            <PriceRange range="70-79" cutFee="8"/>
-            <PriceRange range="80-89" cutFee="10"/>
-            <PriceRange range="90-99" cutFee="12"/>
-            <PriceRange range="100+" cutFee="20"/>
-        </TwoSided>
-    </Paper>
-    <Paper type="gsm300Card">
-        <OneSided>
-            <PriceRange range="1-9" cutFee="8"/>
-            <PriceRange range="10-19" cutFee="8"/>
-            <PriceRange range="20-29" cutFee="8"/>
-            <PriceRange range="30-39" cutFee="8"/>
-            <PriceRange range="40-49" cutFee="8"/>
-            <PriceRange range="50-59" cutFee="8"/>
-            <PriceRange range="60-69" cutFee="8"/>
-            <PriceRange range="70-79" cutFee="8"/>
-            <PriceRange range="80-89" cutFee="10"/>
-            <PriceRange range="90-99" cutFee="12"/>
-            <PriceRange range="100+" cutFee="20"/>
-        </OneSided>
-        <TwoSided>
-            <PriceRange range="1-9" cutFee="8"/>
-            <PriceRange range="10-19" cutFee="8"/>
-            <PriceRange range="20-29" cutFee="8"/>
-            <PriceRange range="30-39" cutFee="8"/>
-            <PriceRange range="40-49" cutFee="8"/>
-            <PriceRange range="50-59" cutFee="8"/>
-            <PriceRange range="60-69" cutFee="8"/>
-            <PriceRange range="70-79" cutFee="8"/>
-            <PriceRange range="80-89" cutFee="10"/>
-            <PriceRange range="90-99" cutFee="12"/>
-            <PriceRange range="100+" cutFee="20"/>
-        </TwoSided>
-    </Paper>
-    <Paper type="A3">
-        <OneSided>
-            <PriceRange range="1-9" cutFee="8"/>
-            <PriceRange range="10-19" cutFee="8"/>
-            <PriceRange range="20-29" cutFee="8"/>
-            <PriceRange range="30-39" cutFee="8"/>
-            <PriceRange range="40-49" cutFee="8"/>
-            <PriceRange range="50-59" cutFee="8"/>
-            <PriceRange range="60-69" cutFee="8"/>
-            <PriceRange range="70-79" cutFee="8"/>
-            <PriceRange range="80-89" cutFee="10"/>
-            <PriceRange range="90-99" cutFee="12"/>
-            <PriceRange range="100+" cutFee="20"/>
-        </OneSided>
-        <TwoSided>
-            <PriceRange range="1-9" cutFee="8"/>
-            <PriceRange range="10-19" cutFee="8"/>
-            <PriceRange range="20-29" cutFee="8"/>
-            <PriceRange range="30-39" cutFee="8"/>
-            <PriceRange range="40-49" cutFee="8"/>
-            <PriceRange range="50-59" cutFee="8"/>
-            <PriceRange range="60-69" cutFee="8"/>
-            <PriceRange range="70-79" cutFee="8"/>
-            <PriceRange range="80-89" cutFee="10"/>
-            <PriceRange range="90-99" cutFee="12"/>
-            <PriceRange range="100+" cutFee="20"/>
-        </TwoSided>
-    </Paper>
-    <Paper type="fancyPaper">
-        <OneSided>
-            <PriceRange range="1-9" cutFee="8"/>
-            <PriceRange range="10-19" cutFee="8"/>
-            <PriceRange range="20-29" cutFee="8"/>
-            <PriceRange range="30-39" cutFee="8"/>
-            <PriceRange range="40-49" cutFee="8"/>
-            <PriceRange range="50-59" cutFee="8"/>
-            <PriceRange range="60-69" cutFee="8"/>
-            <PriceRange range="70-79" cutFee="8"/>
-            <PriceRange range="80-89" cutFee="10"/>
-            <PriceRange range="90-99" cutFee="12"/>
-            <PriceRange range="100+" cutFee="20"/>
-        </OneSided>
-        <TwoSided>
-            <PriceRange range="1-9" cutFee="8"/>
-            <PriceRange range="10-19" cutFee="8"/>
-            <PriceRange range="20-29" cutFee="8"/>
-            <PriceRange range="30-39" cutFee="8"/>
-            <PriceRange range="40-49" cutFee="8"/>
-            <PriceRange range="50-59" cutFee="8"/>
-            <PriceRange range="60-69" cutFee="8"/>
-            <PriceRange range="70-79" cutFee="8"/>
-            <PriceRange range="80-89" cutFee="10"/>
-            <PriceRange range="90-99" cutFee="12"/>
-            <PriceRange range="100+" cutFee="20"/>
-        </TwoSided>
-    </Paper>
-    <Lamination>
-        <PriceRange range="1-9" cutFee="8"/>
-        <PriceRange range="10-19" cutFee="8"/>
-        <PriceRange range="20-29" cutFee="8"/>
-        <PriceRange range="30-39" cutFee="8"/>
-        <PriceRange range="40-49" cutFee="8"/>
-        <PriceRange range="50-59" cutFee="8"/>
-        <PriceRange range="60-69" cutFee="8"/>
-        <PriceRange range="70-79" cutFee="8"/>
-        <PriceRange range="80-89" cutFee="10"/>
-        <PriceRange range="90-99" cutFee="12"/>
-        <PriceRange range="100+" cutFee="20"/>
-    </Lamination>
-</CutFees>
-
         
     </PaperPrices>
-    
-   
-
-    
-    
 </PaperPricing>
