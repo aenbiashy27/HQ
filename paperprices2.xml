@@ -164,4 +164,19 @@
         </Lamination>
         
     </PaperPrices>
+
+    <CutFees>
+        <PriceRange range="1-9" cutFee="8"/>
+        <PriceRange range="10-19" cutFee="8"/>
+        <PriceRange range="20-29" cutFee="8"/>
+        <PriceRange range="30-39" cutFee="8"/>
+        <PriceRange range="40-49" cutFee="8"/>
+        <PriceRange range="50-59" cutFee="8"/>
+        <PriceRange range="60-69" cutFee="8"/>
+        <PriceRange range="70-79" cutFee="8"/>
+        <PriceRange range="80-89" cutFee="10"/>
+        <PriceRange range="90-99" cutFee="12"/>
+        <PriceRange range="100+" cutFee="20"/>
+   
+</CutFees>
 </PaperPricing>
