@@ -162,10 +162,8 @@
             <PriceRange range="90-99" value="1.40"/>
             <PriceRange range="100+" value="1.30"/>
         </Lamination>
-        
-    </PaperPrices>
 
-     <CutFees>
+        <CutFees>
         <PriceRange range="1" cutFee="1"/>
         <PriceRange range="2" cutFee="2"/>
         <PriceRange range="3" cutFee="3"/>
@@ -184,4 +182,8 @@
         <PriceRange range="90-99" cutFee="12"/>
         <PriceRange range="100+" cutFee="20"/>
     </CutFees>
+        
+    </PaperPrices>
+
+     
 </PaperPricing>
