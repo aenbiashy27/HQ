@@ -165,9 +165,15 @@
         
     </PaperPrices>
 
-    <CutFees>
-        <PriceRange range="1-9" cutFee="8"/>
-        <PriceRange range="10-19" cutFee="8"/>
+     <CutFees>
+        <PriceRange range="1" cutFee="1"/>
+        <PriceRange range="2" cutFee="2"/>
+        <PriceRange range="3" cutFee="3"/>
+        <PriceRange range="4" cutFee="4"/>
+        <PriceRange range="5" cutFee="5"/>
+        <PriceRange range="6" cutFee="6"/>
+        <PriceRange range="7" cutFee="7"/>
+        <PriceRange range="8-19" cutFee="8"/>
         <PriceRange range="20-29" cutFee="8"/>
         <PriceRange range="30-39" cutFee="8"/>
         <PriceRange range="40-49" cutFee="8"/>
@@ -177,6 +183,5 @@
         <PriceRange range="80-89" cutFee="10"/>
         <PriceRange range="90-99" cutFee="12"/>
         <PriceRange range="100+" cutFee="20"/>
-   
-</CutFees>
+    </CutFees>
 </PaperPricing>
