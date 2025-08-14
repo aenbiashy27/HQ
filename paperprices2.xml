@@ -21,7 +21,7 @@
             </TwoSided>
             <OneSided>
                 <PriceRange range="1-9" value="1.50"/>
-                <PriceRange range="10-19" value="1.40"/>
+                <PriceRange range="10-19" value="1.45"/>
                 <PriceRange range="20-29" value="1.40"/>
                 <PriceRange range="30-39" value="1.30"/>
                 <PriceRange range="40-49" value="1.20"/>
@@ -106,15 +106,15 @@
                     </TwoSided>
                     <OneSided>
                         <PriceRange range="1-9" value="1.00"/>
-                        <PriceRange range="10-19" value="1.00"/>
+                        <PriceRange range="10-19" value="0.95"/>
                         <PriceRange range="20-29" value="0.90"/>
-                        <PriceRange range="30-39" value="0.90"/>
+                        <PriceRange range="30-39" value="0.85"/>
                         <PriceRange range="40-49" value="0.80"/>
-                        <PriceRange range="50-59" value="0.80"/>
+                        <PriceRange range="50-59" value="0.75"/>
                         <PriceRange range="60-69" value="0.70"/>
-                        <PriceRange range="70-79" value="0.70"/>
+                        <PriceRange range="70-79" value="0.65"/>
                         <PriceRange range="80-89" value="0.60"/>
-                        <PriceRange range="90-99" value="0.60"/>
+                        <PriceRange range="90-99" value="0.55"/>
                         <PriceRange range="100+" value="0.50"/>
                     </OneSided>
                 </Paper>
@@ -136,15 +136,15 @@
             </TwoSided>
             <OneSided>
                 <PriceRange range="1-9" value="1.00"/>
-                <PriceRange range="10-19" value="1.00"/>
+                <PriceRange range="10-19" value="0.95"/>
                 <PriceRange range="20-29" value="0.90"/>
-                <PriceRange range="30-39" value="0.90"/>
+                <PriceRange range="30-39" value="0.85"/>
                 <PriceRange range="40-49" value="0.80"/>
-                <PriceRange range="50-59" value="0.80"/>
+                <PriceRange range="50-59" value="0.75"/>
                 <PriceRange range="60-69" value="0.70"/>
-                <PriceRange range="70-79" value="0.70"/>
+                <PriceRange range="70-79" value="0.65"/>
                 <PriceRange range="80-89" value="0.60"/>
-                <PriceRange range="90-99" value="0.60"/>
+                <PriceRange range="90-99" value="0.55"/>
                 <PriceRange range="100+" value="0.50"/>
             </OneSided>
         </Paper>
