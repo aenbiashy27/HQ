@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PaperPricing>
     <SheetDimensions>
-        <Sheet id="317" width="440" height="307"/>
-        <Sheet id="A3" width="410" height="287"/>
+        <Sheet id="317" width="443" height="310"/>
+        <Sheet id="A3" width="413" height="290"/>
     </SheetDimensions>
     <PaperPrices>
         <Paper type="gsm100Paper">
