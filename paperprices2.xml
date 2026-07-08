@@ -171,7 +171,7 @@
         <PriceRange range="5" cutFee="5"/>
         <PriceRange range="6" cutFee="6"/>
         <PriceRange range="7" cutFee="7"/>
-        <PriceRange range="8-19" cutFee="8"/>
+        <PriceRange range="8-19" cutFee="10"/>
         <PriceRange range="20-29" cutFee="8"/>
         <PriceRange range="30-39" cutFee="8"/>
         <PriceRange range="40-49" cutFee="8"/>
