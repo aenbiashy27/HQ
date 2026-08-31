@@ -7,6 +7,7 @@
     <PaperPrices>
         <Paper type="gsm100Paper">
             <TwoSided>
+
                 <PriceRange range="1-9" value="2.00"/>
                 <PriceRange range="10-19" value="1.90"/>
                 <PriceRange range="20-29" value="1.80"/>
